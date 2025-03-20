@@ -1,0 +1,70 @@
+@use '../../../styles/variables.scss' as *;
+
+.header-top__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+
+  color: white;
+
+  .title-content{
+    h2{
+      font-size: xx-large;
+      font-weight: 200;
+
+      font-family: $font-main-title;
+    }
+  }
+
+  nav{
+    ul{
+      display: flex;
+
+
+      gap: 40px;
+
+      li{
+        list-style: none;
+
+        a{
+          font-family: $font-text;
+          color: white;
+          text-decoration: none;
+
+          &:hover{
+          color: rgb(223, 223, 223);
+        }
+        }
+      }
+    }
+  }
+
+  .buttons-content{
+    display: flex;
+    gap: 20px;
+
+    button{
+      font-family: $font-text;
+      font-weight: bolder;
+      border: none;
+      cursor: pointer;
+      border: none;
+    }
+
+    .first-btn{
+      background-color: transparent;
+      color: white;
+    }
+
+    .second-btn{
+      background-color: $button-color;
+      padding: 10px 18px;
+
+      border-radius: 15px;
+    }
+  }
+}
+
+

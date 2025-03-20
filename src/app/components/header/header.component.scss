@@ -1,0 +1,62 @@
+@use '../../../styles/variables.scss' as *;
+
+header {
+  background-image: url('/coffee_image.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+
+  width: 100%;
+
+  .header-content{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(26, 26, 26, 0.781) 0%, rgba(0, 0, 0, 0.623) 37%, rgba(246, 246, 246, 0) 100%);
+  }
+
+  .text-content{
+    height: 60dvh;
+    width: 40vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+    font-family: $font-text;
+    text-align: justify;
+
+    padding: 0 50px;
+
+
+    .top-content{
+      h1{
+        font-weight: 200;
+        font-family: $font-main-title;
+        font-size: 220px;
+      }
+    }
+
+
+    .botton-content{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      button{
+        background-color: $button-color;
+
+        font-family: $font-text;
+
+        border: none;
+        border-radius: 30px;
+
+        padding: 10px 10px;
+
+        width: 20%;
+
+        cursor: pointer;
+      }
+    }
+  }
+}
