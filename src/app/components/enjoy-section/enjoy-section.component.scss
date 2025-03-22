@@ -1,0 +1,32 @@
+@use '../../../styles/variables.scss' as *;
+
+section{
+  height: 70vh;
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  font-family: $font-text;
+
+  .title-content{
+    text-align: center;
+
+    h1{
+      font-size: xxx-large;
+      color: $title-color;
+    }
+
+    p{
+      color: #707070;
+    }
+  }
+
+  .cards-content{
+    display: flex;
+    gap: 10px;
+  }
+}
