@@ -1,0 +1,72 @@
+@use '../../../styles/variables.scss' as *;
+
+.card__container{
+  width: 80%;
+  height: 60vh;
+  background-color: #FFF9F1;
+  border: 1px solid #F9C06A;
+
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+  button{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .main-content{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    .comma-content {
+      height: 120px;
+      span {
+        font-size: 220px;
+        color: $title-color;
+      }
+    }
+
+
+    .text-content{
+      text-align: center;
+      line-height: 1.8;
+
+      margin-top: 10px;
+      padding: 0 40px;
+
+      color: #707070;
+    }
+
+    .user-content{
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      justify-content: end;
+      gap: 5px;
+
+      height: 100%;
+
+      h2{
+        font-size: x-large;
+        color: $title-color;
+      }
+
+
+      span{
+        color: #707070;
+      }
+
+      img{
+        width: 112px;
+        height: 112px;
+      }
+    }
+  }
+}
