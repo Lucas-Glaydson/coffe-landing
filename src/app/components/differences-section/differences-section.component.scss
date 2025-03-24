@@ -1,0 +1,36 @@
+@use '../../../styles/variables.scss' as *;
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  gap: 40px;
+
+  margin-top: 25px;
+
+  text-align: center;
+
+  h1{
+    font-size: xxx-large;
+  }
+
+  h1,h2{
+    color: $title-color;
+  }
+
+  p{
+    color: #707070;
+    font-weight: 100;
+  }
+
+  button{
+    padding: 10px 30px;
+    margin-top: 15px;
+  }
+
+  .card-content{
+    display: flex;
+    gap: 20px;
+  }
+}

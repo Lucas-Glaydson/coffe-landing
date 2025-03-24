@@ -1,0 +1,31 @@
+@use '../../../styles/variables.scss' as *;
+
+div{
+  width: 280px;
+  height: 284px;
+  border: 1px solid #F9C06A;
+  background-color: #FFF9F1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+
+  padding: 50px;
+
+  h3{
+    color: $title-color;
+  }
+
+  p{
+    color: #707070;
+  }
+
+
+}
+
+.emphasis{
+  background-color: #FFEED8;
+  border: none;
+}
