@@ -9,6 +9,7 @@ section{
 
   .chance__container{
     background: $bg-color;
+    overflow: hidden;
 
     display: flex;
     align-items: center;
