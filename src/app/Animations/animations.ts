@@ -23,3 +23,5 @@ export const slideInFromLeft = trigger('slideInFromLeft', [
   state('show', style({ opacity: 1, transform: 'translateX(0)' })), // Visível no lugar original
   transition('hide <=> show', animate('600ms ease-out')) // Transição suave
 ]);
+
+//
