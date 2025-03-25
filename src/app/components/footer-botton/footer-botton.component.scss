@@ -1,0 +1,66 @@
+@use '../../../styles/variables.scss' as *;
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 50vh;
+
+  color: white;
+
+  background: linear-gradient(to bottom, #442808, #442808e3, #693f0ee3), url('../../../../public/fotter_image.svg');
+
+  background-size: cover;
+  background-position: center;
+
+
+  .title-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 23%;
+
+    figure{
+      display: flex;
+      gap: 20px;
+    }
+
+    h1{
+      font-family: $font-main-title;
+      font-weight: 100;
+      font-size: xxx-large;
+    }
+  }
+
+  .links-content{
+    display: flex;
+    justify-content: space-around;
+
+    .links{
+      width: 300px;
+
+      display: flex;
+      flex-direction: column;
+
+      gap: 50px;
+
+      h2{
+        font-weight: 900;
+      }
+
+      ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        list-style: none;
+
+        a{
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}

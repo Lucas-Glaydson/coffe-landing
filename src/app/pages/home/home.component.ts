@@ -5,10 +5,11 @@ import { EnjoySectionComponent } from "../../components/enjoy-section/enjoy-sect
 import { DifferencesSectionComponent } from "../../components/differences-section/differences-section.component";
 import { ChanceSetionComponent } from "../../components/chance-setion/chance-setion.component";
 import { FeedbackSetionComponent } from "../../components/feedback-setion/feedback-setion.component";
+import { FooterSectionComponent } from "../../components/footer-section/footer-section.component";
 
 @Component({
   selector: 'app-home',
-  imports: [HeaderComponent, DiscoverSectionComponent, EnjoySectionComponent, DifferencesSectionComponent, ChanceSetionComponent, FeedbackSetionComponent],
+  imports: [HeaderComponent, DiscoverSectionComponent, EnjoySectionComponent, DifferencesSectionComponent, ChanceSetionComponent, FeedbackSetionComponent, FooterSectionComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
